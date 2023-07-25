@@ -7,5 +7,4 @@ key = winreg.OpenKey(winreg.HKEY_CURRENT_USER, r"SOFTWARE\Microsoft\Windows\Curr
 winreg.SetValue(key, "Run", winreg.REG_SZ, key_path)
 
 winreg.CloseKey(key)
-#print("创建成功")
 
